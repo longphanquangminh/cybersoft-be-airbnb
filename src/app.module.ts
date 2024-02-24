@@ -10,7 +10,12 @@ import { AdminJwtStrategy } from './modules/user/strategy/admin-jwt.strategy';
 import { JwtService } from '@nestjs/jwt';
 
 @Module({
-  imports: [AuthModule, UserModule, CommentModule, BookingModule, RoomModule,
+  imports: [
+    AuthModule,
+    UserModule,
+    CommentModule,
+    BookingModule,
+    RoomModule,
     ConfigModule.forRoot({ isGlobal: true }),
   ],
   controllers: [],

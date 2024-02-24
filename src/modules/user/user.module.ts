@@ -8,4 +8,4 @@ import { JwtService } from '@nestjs/jwt';
   controllers: [UserController],
   providers: [UserService, AuthService, JwtService],
 })
-export class UserModule { }
+export class UserModule {}

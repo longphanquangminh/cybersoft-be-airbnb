@@ -1,4 +1,4 @@
 export interface I_Data_Token {
-    email: string,
-    key: number
+  email: string;
+  key: number;
 }
